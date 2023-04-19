@@ -1,8 +1,20 @@
-//write a function that randomly returns a)rock - b)paper - c)scissors
+//define some variables
+const choices = ["rock", "paper", "scissors"]
 
-//create R-P-S drop-down for the human side input
+function game() {
+    //play the game
+    //play five rounds
+    //console based
+}
 
-//create function that pulls random computer selection and matches it against human selection
+function playRound() {
+    const playerSelection =
+}
 
-//declare result of winner e.g. "You lose! Paper beats Rock"
-console.log("hello-world!");
+function playerChoice() {
+    //get input from player
+}
+
+function computerChoice() {
+    return choices[Math.floor(Math.random()*choices.length)]
+}
